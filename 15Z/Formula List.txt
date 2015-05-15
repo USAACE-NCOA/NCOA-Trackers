@@ -1,0 +1,7 @@
+Formulas for PLT Tracker Admin Tab:
+
+=INDEX('C:\Path\To\File\[Master 15Z Class Tracker (Senior).xls]Admin'!$D$5:$D$124,SMALL(IF($C$2='C:\Path\To\File\[Master 15Z Class Tracker (Senior).xls]Admin'!$C$5:$C$124,ROW('C:\Path\To\File\[Master 15Z Class Tracker (Senior).xls]Admin'!$C$5:$C$124)-ROW('C:\Path\To\File\[Master 15Z Class Tracker (Senior).xls]Admin'!$C$5)+1),ROW(1:1)))
+    Must use Ctr+Shift+Enter to complete cell                         ^-----^ Change this section to look at the column
+                                                                              you want to pull data from. This makes the
+                                                                              formula very usable for any data on the 
+                                                                              tracker so far. 
